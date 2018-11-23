@@ -1,0 +1,27 @@
+<html>
+<body>
+    <fieldset>
+        <legend>User Data</legend>
+                <form action = "userdata.php" method="post" name="user" > 
+
+        <table border="4px" align = "center" width="500px">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" placeholder="Enter Your Name" name="name" required></td></tr>
+        <tr><td>
+            Address</td>
+            <td><textarea placeholder="Enter Address" name="address" required></textarea></td></tr>
+        <tr>
+            <td>DOB</td>
+            <td><input type = "date" name="dob" placeholder="Date Of Birth"></td>
+            </tr>
+        <tr>
+            <td>Gender</td>
+            <td><label><input type="radio" name="gender" value="Male">Male</label><label><input type="radio" name="gender" value="Female">Female</label></td></tr>
+            <tr>
+            <td>Password</td>
+            <td><input type="password" name = "upass"></td></tr>
+        <tr><td colspan = '2' align = "center"><input type="submit" value = "Submit"></td></tr></table>
+    </form>
+        </fieldset>
+</body></html>
